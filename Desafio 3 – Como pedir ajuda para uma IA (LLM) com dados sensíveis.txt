@@ -1,0 +1,17 @@
+Se eu estivesse programando algo na linha do que foi proposto e fosse utilizar ajuda do ChatGPT, Gemini ou algo do gênero, eu enviaria o seguinte prompt:
+
+Estou desenvolvendo um sistema para uma empresa de tecnologia financeira (FinTech). No meu código Java, preciso lidar com dados sensíveis de clientes, especificamente o CPF. Atualmente, a lógica de negócio do sistema salva o CPF diretamente em texto plano no banco de dados, o que representa um grande risco de segurança. Aqui abaixo envio um exemplo do código em Java:
+
+Java
+
+public class Cliente {
+    public static void main(String[] args) {
+        salvarCliente("Fulano de Tal", "607.523.430-68");
+    }
+    public boolean salvarCliente(String nome, String cpf) {
+        // TODO: lógica para salvar o CPF diretamente no banco
+        return true;
+    }
+}
+
+Tendo isso em mente, gostaria de um guia de boas práticas para a IA, com exemplos de código em Java, que me mostre como armazenar esse tipo de dado de forma segura em um banco de dados. Me dê também sugestões de como eu poderia alterar meu código para melhor me adequar a essas práticas.
